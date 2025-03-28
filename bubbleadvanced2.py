@@ -1,12 +1,11 @@
 # Go through each word, check if the next word has a higher number.
 # If it does, don't swap. If it doesn't, swap. If they are the same, go to the next letter.
 
-words = ["Wow", "How", "Zero", "Xylophone"]
-swapped = True
-preWords = words
-swaps = 0
+words = ["Wow", "How", "Zero", "Xylophone"] # set words list
+swapped = True # set swapped to true for loop
+swaps = 0 # set swaps to 0
 
-print("The original list is:", words)
+print("The original list is:", words) # print the original list
 
 # While swapped is true
 while swapped:
